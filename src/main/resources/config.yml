@@ -1,0 +1,120 @@
+Messages:
+  Blocked-Command: §cKullanılamayan bir komut girdiniz!
+  MOTD:
+  - '&4&l&m======[=&r &f&lUNIOCRAFT 3.0 REVIVAL EDITION&r &4&l&m=]======'
+  - '&r'
+  - '&a    Yenilenen lobimize hoş geldin %player%&e!'
+  - '&a Yardım alabilmek için &b/yardım &aya da &b/bilgi &ayazabilirsin.'
+  - '&r'
+  - '&a   Oyunlara geçiş yapabilmek için sunucu menüsünü'
+  - '&a    ya da sunucu yaratıklarını kullanabilirsin!'
+  - '&r'
+  - '&4&l&m============================================='
+  Help:
+    '1':
+    - '&4&l&m=========[=&r &f&lYARDIM&r &4&l&m=]========='
+    - '&r'
+    - '&f&l➥ &aLobi Bilgileri 1 &8- &7Sayfa 2'
+    - '&f&l➥ &aLobi Bilgileri 2 &8- &7Sayfa 3'
+    - '&f&l➥ &aCevherler ve Gizemli Kutular &8- &7Sayfa 4'
+    - '&f&l➥ &aKozmetikler &8- &7Sayfa 5'
+    - '&r'
+    - '&7Bir sonraki sayfa için &a/yardım 2 &7yazabilirsin.'
+    '2':
+    - '&4&l&m=========[=&r &f&lYARDIM&r &4&l&m=]========='
+    - '&r'
+    - '&7Lobi sunucusu genel olarak oyunlara geçiş amaçlı kullanılsa da burada da
+      eğlenebilmen için yapılacak şeyler mevcut!'
+    - '&7Elindeki eşyaların ne işe yaradığını isimlerine bakarak öğrenebilirsin ve
+      sağ tıklayarak kullanabilirsin.'
+    - '&7Sunucu değiştirmek için sunucu seçim menüsünü ya da sunucu yaratıklarını
+      kullanabilirsin.'
+    - '&r'
+    - '&fBir sonraki sayfa için &a/yardım 3 &fyazabilirsin.'
+    '3':
+    - '&4&l&m=========[=&r &f&lYARDIM&r &4&l&m=]========='
+    - '&r'
+    - '&7Lobi oyuncularını, sohbeti gizlemek gibi ayarlarını profil ve ayarlar menüsünden
+      değiştirebilirsin. Ayrıca bu menüden istatistiklerini de görebilirsin.'
+    - '&r'
+    - '&7Boşluk tuşuna iki kere basarak çift zıplayabilirsin. Merdiven ve yarım bloklara
+      sağ tıklayarak oturabilirsin.'
+    - '&7Ayrıca lobide bulduğun hazineleri toplayarak ödüller kazanbilirsin.'
+    - '&r'
+    - '&fBir sonraki sayfa için &a/yardım 4 &fyazabilirsin.'
+    '4':
+    - '&4&l&m=========[=&r &f&lYARDIM&r &4&l&m=]========='
+    - '&r'
+    - '&7Her gün oyuna girip günlük ödülünü alarak cevher kazanabilirsin. Ayrıca sunucumuza
+      her gün oy vererek de gizemli kutu ve cevher kazanabilirsin.'
+    - '&7Ayrıca birikmiş cevherlerinle de gizemli kutular alabilirsin. Gizemli kutulardan
+      birbirinden farklı kozmetik eşyalar düşürebilirsin.'
+    - '&7Envanterindeki ganimetler eşyasına sağ tıklayarak kazandığın ganimetlerini
+      kullanabilirsin.'
+    - '&r'
+    - '&fBir sonraki sayfa için &a/yardım 5 &fyazabilirsin.'
+    '5':
+    - '&4&l&m=========[=&r &f&lYARDIM&r &4&l&m=]========='
+    - '&r'
+    - '&7Sunucumuzda &aşapkalar, efektler, kostümler, araçlar, evcil hayvanlar, dönüşümler,
+      flamalar, ifadeler ve pelerinler &7olmak üzere birbirinden farklı yüzlerce kozmetik
+      eşya vardır. Bunları gizemli kutulardan düşürebilirsin.'
+    - '&7Ayrıca VIP olarak da VIP özel kozmetiklere erişebilirsin.'
+    - '&r'
+    - '&fBaşa dönmek için &a/yardım &fyazabilirsin.'
+allowedCommands:
+- profil
+- fly
+- spawn
+- help
+- yardim
+- yardım
+- oduller
+- serversspawn
+- server
+- skywars
+- bedwars
+- sg
+- hg
+- survivalgames
+- hungergames
+- vote
+- factions
+- skyblock
+- skyblock2
+- asitadasi
+- kitpvp
+- hackpvp
+MySQL:
+  host: ''
+  port: 3306
+  database: lobi
+  username: total
+  password: ''
+spawn:
+  world: world
+  x: 7.48328773861423
+  y: 120.36592753863893
+  z: 112.41978210677667
+  yaw: 180.05025
+  pitch: -5.400012
+NPCCommmands:
+  '1': say test
+serversSpawn:
+  world: world
+  x: 8.5273724954235
+  y: 99.0
+  z: -21.334624920585888
+  yaw: 180.35023
+  pitch: -5.100012
+NPCCommands:
+  '0': serversspawn
+  '1': oduller
+  '2': asitadasi
+  '3': hackpvp
+  '5': skyblock2
+  '6': skyblock
+  '7': factions
+  '8': sg
+  '9': bedwars
+  '10': skywars

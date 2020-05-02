@@ -1,0 +1,42 @@
+name: UnioLobi
+main: me.uniodex.uniolobi.Main
+version: 4.0
+depend: [Vault, PlaceholderAPI]
+softdepend: [Citizens, BetterChairs, Votifier, GadgetsMenu, AntiVPN]
+
+commands:
+  uniolobi:
+    description: Ana komut
+  spawn:
+    description: Spawna ışınlar
+  serversspawn:
+    description: Spawna ışınlar
+  fly:
+    description: Uçurur
+  profil:
+    description: Profili açar
+  oduller:
+    description: Ödüller menüsünü açar
+  vipbilgi:
+    description: VIP bilgi kitabını açar
+  bilgi:
+    description: Bilgi kitabını açar
+  sendmessagetoplayer:
+    description: Console command
+  sudo:
+    description: Console command
+  help:
+    description: Yardım
+    aliases: [yardim, yardım]
+  givemysteryboxtoplayer:
+    description: Mystery box
+  vote:
+    description: Vote
+  reloadrewards:
+    description: Reload rewards
+  market:
+    description: Market
+  erdogdu:
+    description: Erdem erdoğdu
+  gokselkirca:
+    description: Göksel kırca
